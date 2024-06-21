@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.acertadas{
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 10px 15px;
+}
+
+.container{
+    background-color: white;
+    width: 90%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+button, input{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 3px;
+}
+
+button{
+    border: none;
+    background-color: #84fab0;
+    color: white;
+    padding: 10px;
+    margin: 8px 6rem;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #51d782;
+}
+
+#question{
+    margin: 10px 0;
+    width: 100%;
+}
+
+.resultTrue{
+    margin: 10px;
+    color: green;
+}
+
+.resultFalse{
+    margin: 10px;
+    color: red;
+}
